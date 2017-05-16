@@ -1,0 +1,12 @@
+{
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/WadaApp",
+    "JWT_SECRET": "$jfTJf2455fgg:TgjsT1965?#fsghh!1&:Fjs4"
+  },
+  "test": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/WadaAppTest",
+    "JWT_SECRET": "jkfHG75&$NkgFGNK$:?TfgakU*jf?-sag7SS$Q"
+  }
+}
