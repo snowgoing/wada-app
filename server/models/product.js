@@ -10,8 +10,13 @@ var ProductSchema = new mongoose.Schema({
     trim: true
   },
   ingredients: {
-    type: String,
-    trim: true
+    type: [String]
+  },
+  src: {
+    type: String
+  },
+  facts: {
+    type: [String]
   }
 });
 

@@ -1,0 +1,282 @@
+[
+  	{
+  		"ingredient": "D-Aspartic Acid",
+  		"value": "/store/d-aspartic-acid.html"
+  	},
+  	{
+  		"ingredient": "Dandelion",
+  		"value": "/store/dande.html"
+  	},
+  	{
+  		"ingredient": "Deer Antler Velvet",
+  		"value": "/store/deer.html"
+  	},
+  	{
+  		"ingredient": "Desiccated Liver",
+  		"value": "/store/liver.html"
+  	},
+  	{
+  		"ingredient": "DHEA",
+  		"value": "/store/dhea.html"
+  	},
+  	{
+  		"ingredient": "Diindolyl Methane",
+  		"value": "/store/dim.html"
+  	},
+  	{
+  		"ingredient": "DMAE",
+  		"value": "/store/dmae.html"
+  	},
+  	{
+  		"ingredient": "Dong Quai",
+  		"value": "/store/dongquai.html"
+  	},
+  	{
+  		"ingredient": "Ecdysterone",
+  		"value": "/store/ecdy.html"
+  	},
+  	{
+  		"ingredient": "Echinacea",
+  		"value": "/store/goec.html"
+  	},
+  	{
+  		"ingredient": "Egg Protein",
+  		"value": "/store/egg.html"
+  	},
+  	{
+  		"ingredient": "Egg Whites",
+  		"value": "/store/egg-whites.html"
+  	},
+  	{
+  		"ingredient": "Elderberry",
+  		"value": "/store/elderberry.html"
+  	},
+  	{
+  		"ingredient": "Enzymes",
+  		"value": "/store/enzymes.html"
+  	},
+  	{
+  		"ingredient": "Essential Fatty Acids",
+  		"value": "/store/efa.html"
+  	},
+  	{
+  		"ingredient": "Evening Primrose Oil",
+  		"value": "/store/evening.html"
+  	},
+  	{
+  		"ingredient": "Evodiamine",
+  		"value": "/store/evo.html"
+  	},
+  	{
+  		"ingredient": "Fenugreek",
+  		"value": "/store/fenu.html"
+  	},
+  	{
+  		"ingredient": "Fiber",
+  		"value": "/store/fiber.html"
+  	},
+  	{
+  		"ingredient": "Fish Oil",
+  		"value": "/store/fish.html"
+  	},
+  	{
+  		"ingredient": "Flax Seed Oil",
+  		"value": "/store/flax.html"
+  	},
+  	{
+  		"ingredient": "Folic Acid",
+  		"value": "/store/folic.html"
+  	},
+  	{
+  		"ingredient": "Forskolin",
+  		"value": "/store/fors.html"
+  	},
+  	{
+  		"ingredient": "Fucoxanthin",
+  		"value": "/store/fucoxanthin.html"
+  	},
+  	{
+  		"ingredient": "GABA",
+  		"value": "/store/gaba.html"
+  	},
+  	{
+  		"ingredient": "Gamma Oryzanol",
+  		"value": "/store/oryzanol.html"
+  	},
+  	{
+  		"ingredient": "Garcinia Cambogia",
+  		"value": "/store/hca.html"
+  	},
+  	{
+  		"ingredient": "Garlic",
+  		"value": "/store/garlic.html"
+  	},
+  	{
+  		"ingredient": "Ginger Root",
+  		"value": "/store/ging.html"
+  	},
+  	{
+  		"ingredient": "Ginkgo Biloba",
+  		"value": "/store/ginko.html"
+  	},
+  	{
+  		"ingredient": "Ginseng",
+  		"value": "/store/ginseng.html"
+  	},
+  	{
+  		"ingredient": "GLA",
+  		"value": "/store/gla.html"
+  	},
+  	{
+  		"ingredient": "Glucomannan",
+  		"value": "/store/glucom.html"
+  	},
+  	{
+  		"ingredient": "Glucosamine",
+  		"value": "/store/glucos.html"
+  	},
+  	{
+  		"ingredient": "Glucuronolactone",
+  		"value": "/store/glucur.html"
+  	},
+  	{
+  		"ingredient": "Glutamine",
+  		"value": "/store/glutamine.html"
+  	},
+  	{
+  		"ingredient": "Glutamine Peptides",
+  		"value": "/store/glutpep.html"
+  	},
+  	{
+  		"ingredient": "Glycerol",
+  		"value": "/store/glycerol.html"
+  	},
+  	{
+  		"ingredient": "Goji",
+  		"value": "/store/goji.html"
+  	},
+  	{
+  		"ingredient": "Goldenseal",
+  		"value": "/store/gold.html"
+  	},
+  	{
+  		"ingredient": "Gotu Kola",
+  		"value": "/store/gotu.html"
+  	},
+  	{
+  		"ingredient": "GPLC",
+  		"value": "/store/gplc.html"
+  	},
+  	{
+  		"ingredient": "Grape Seed",
+  		"value": "/store/grape.html"
+  	},
+  	{
+  		"ingredient": "Green Coffee Extract",
+  		"value": "/store/green-coffee-extract.html"
+  	},
+  	{
+  		"ingredient": "Green Tea",
+  		"value": "/store/green.html"
+  	},
+  	{
+  		"ingredient": "Greens Food",
+  		"value": "/store/greensfood.html"
+  	},
+  	{
+  		"ingredient": "Guarana",
+  		"value": "/store/guarana.html"
+  	},
+  	{
+  		"ingredient": "Guggulsterones",
+  		"value": "/store/guggul.html"
+  	},
+  	{
+  		"ingredient": "Gymnema Sylvestre",
+  		"value": "/store/gymnema.html"
+  	},
+  	{
+  		"ingredient": "Hawthorne Berry",
+  		"value": "/store/haw.html"
+  	},
+  	{
+  		"ingredient": "Hemp Protein",
+  		"value": "/store/hemp.html"
+  	},
+  	{
+  		"ingredient": "HICA",
+  		"value": "/store/hica.html"
+  	},
+  	{
+  		"ingredient": "Highly Branched Cyclic Dextrin",
+  		"value": "/store/highly-branched-cyclic-dextrin.html"
+  	},
+  	{
+  		"ingredient": "HMB",
+  		"value": "/store/hmb.html"
+  	},
+  	{
+  		"ingredient": "HMB-FA",
+  		"value": "/store/hmb-fa.html"
+  	},
+  	{
+  		"ingredient": "Hoodia Gordonii",
+  		"value": "/store/hood.html"
+  	},
+  	{
+  		"ingredient": "Hordenine",
+  		"value": "/store/hordenine.html"
+  	},
+  	{
+  		"ingredient": "Horny Goat Weed",
+  		"value": "/store/horny.html"
+  	},
+  	{
+  		"ingredient": "Humanofort",
+  		"value": "/store/humanofort.html"
+  	},
+  	{
+  		"ingredient": "Huperzine-A",
+  		"value": "/store/huperzine-a.html"
+  	},
+  	{
+  		"ingredient": "Hyaluronic Acid",
+  		"value": "/store/ha.html"
+  	},
+  	{
+  		"ingredient": "Hydrolyzed Whey Protein",
+  		"value": "/store/hydrolyzed-whey-protein.html"
+  	},
+  	{
+  		"ingredient": "Inositol",
+  		"value": "/store/inos.html"
+  	},
+  	{
+  		"ingredient": "Ipriflavone",
+  		"value": "/store/ipri.html"
+  	},
+  	{
+  		"ingredient": "Iron",
+  		"value": "/store/iron.html"
+  	},
+  	{
+  		"ingredient": "Jojoba",
+  		"value": "/store/jojoba.html"
+  	},
+  	{
+  		"ingredient": "Kelp",
+  		"value": "/store/kelp.html"
+  	},
+  	{
+  		"ingredient": "Kola Nut",
+  		"value": "/store/kolanut.html"
+  	},
+  	{
+  		"ingredient": "Kre-Alkalyn",
+  		"value": "/store/kre.html"
+  	},
+  	{
+  		"ingredient": "Krill Oil",
+  		"value": "/store/krilloil.html"
+  	}
+]

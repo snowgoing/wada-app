@@ -1,0 +1,109 @@
+[
+	{
+		"brand": "Beverly International",
+		"name": "7-Keto MuscLEAN, 90 Capsules",
+		"img_src": "https://store.bbcomcdn.com/images/store/skuimage/sku_BEV005/image_skuBEV005_largeImage_X_450_white.jpg",
+		"img_local_path": "img/Beverly_International_7-Keto_MuscLEAN,_90_Capsules.jpg",
+		"desc_short": "Clinically Dosed Fat-Loss & Energy Catalyst*",
+		"desc_long": "Supports Fat-Loss Effects of Diet & Exercise*",
+		"product_content": "Our Ideal Fat-Loss Catalyst.",
+		"header": {
+			"label_size": "90 Capsules",
+			"label_flavor": null,
+			"label_title": null,
+			"label_serving": [
+				{
+					"label": "Serving Size: 3 Capsules"
+				},
+				{
+					"label": "Servings Per Container: 30"
+				}
+			]
+		},
+		"body": [
+			{
+				"ing": "Niacin",
+				"qty": "20 mg",
+				"dv": "100%"
+			},
+			{
+				"ing": "7-Keto® (7-Keto DHEA)",
+				"qty": "100 mg",
+				"dv": "**"
+			},
+			{
+				"ing": "Green Tea Extract 4:1(Camellia sinensis)(leaf)",
+				"qty": "500 mg",
+				"dv": "**"
+			},
+			{
+				"ing": "Guarana Extract (22% caffeine) (Paullina cupana)(seed)",
+				"qty": "500 mg",
+				"dv": "**"
+			},
+			{
+				"ing": "Hoodia Gordonii (Powder)",
+				"qty": "120 mg",
+				"dv": "**"
+			},
+			{
+				"ing": "Bromelain 600 GDU",
+				"qty": "45 mg",
+				"dv": "**"
+			},
+			{
+				"ing": "Grapefruit Extract 20:1 (fruit)",
+				"qty": "45 mg",
+				"dv": "**"
+			},
+			{
+				"ing": "** Daily Value (DV) not established",
+				"qty": null,
+				"dv": null
+			}
+		],
+		"ingredients": [
+			"Gelatin",
+			"Magnesium Stearate",
+			"Silica",
+			"Titanium Dioxide",
+			"Microcrystalline Cellulose"
+		],
+		"product_link_bodybuildingDotCom": "https://www.bodybuilding.com/store/bev/7keto.html",
+		"facts": [
+			"90 Capsules",
+			"Serving Size: 3 Capsules",
+			"Servings Per Container:30 ",
+			"Amount Per Serving ",
+			"%DV ",
+			"Niacin",
+			"20 mg",
+			"100%",
+			"7-Keto® (7-Keto DHEA)",
+			"100 mg",
+			"**",
+			"Green Tea Extract 4:1(Camellia sinensis)(leaf)",
+			"500 mg",
+			"**",
+			"Guarana Extract (22% caffeine) (Paullina cupana)(seed)",
+			"500 mg",
+			"**",
+			"Hoodia Gordonii (Powder)",
+			"120 mg",
+			"**",
+			"Bromelain 600 GDU",
+			"45 mg",
+			"**",
+			"Grapefruit Extract 20:1 (fruit)",
+			"45 mg",
+			"**",
+			"** Daily Value (DV) not established",
+			"Other Ingredients:",
+			"Gelatin",
+			"Magnesium Stearate",
+			"Silica",
+			"Titanium Dioxide",
+			"Microcrystalline Cellulose,"
+		]
+	}
+]

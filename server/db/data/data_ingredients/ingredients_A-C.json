@@ -1,0 +1,310 @@
+[
+  {
+		"ingredient": "5-HTP",
+		"value": "/store/5htp.html"
+	},
+	{
+		"ingredient": "7-Keto",
+		"value": "/store/7keto.html"
+	},
+	{
+		"ingredient": "AAKG",
+		"value": "/store/aakg.html"
+	},
+	{
+		"ingredient": "Acai",
+		"value": "/store/acai.html"
+	},
+	{
+		"ingredient": "Acetyl L-Carnitine",
+		"value": "/store/alc.html"
+	},
+	{
+		"ingredient": "Acidophilus",
+		"value": "/store/acid.html"
+	},
+	{
+		"ingredient": "African Mango",
+		"value": "/store/african-mango.html"
+	},
+	{
+		"ingredient": "Agmatine",
+		"value": "/store/agmatine.html"
+	},
+	{
+		"ingredient": "ALA",
+		"value": "/store/ala.html"
+	},
+	{
+		"ingredient": "Alfalfa",
+		"value": "/store/alf.html"
+	},
+	{
+		"ingredient": "All Natural Whey Protein",
+		"value": "/store/all-natural-whey-protein.html"
+	},
+	{
+		"ingredient": "Aloe Vera",
+		"value": "/store/aloe-vera.html"
+	},
+	{
+		"ingredient": "Amino Acids",
+		"value": "/store/amino.html"
+	},
+	{
+		"ingredient": "Amino Acids + Energy",
+		"value": "/store/amino-acids-plus-energy.html"
+	},
+	{
+		"ingredient": "Antioxidants",
+		"value": "/store/antiox.html"
+	},
+	{
+		"ingredient": "Apple Cider Vinegar",
+		"value": "/store/apple.html"
+	},
+	{
+		"ingredient": "Apple Pectin",
+		"value": "/store/apec.html"
+	},
+	{
+		"ingredient": "Arachidonic Acid",
+		"value": "/store/aa.html"
+	},
+	{
+		"ingredient": "Arginine Ethyl Ester",
+		"value": "/store/aee.html"
+	},
+	{
+		"ingredient": "Artichoke Extract",
+		"value": "/store/artichoke.html"
+	},
+	{
+		"ingredient": "Ashwagandha",
+		"value": "/store/ash.html"
+	},
+	{
+		"ingredient": "Astaxanthin",
+		"value": "/store/astaxanthin.html"
+	},
+	{
+		"ingredient": "Astragalus",
+		"value": "/store/astragalus.html"
+	},
+	{
+		"ingredient": "ATP",
+		"value": "/store/atp.html"
+	},
+	{
+		"ingredient": "Avena Sativa",
+		"value": "/store/avena.html"
+	},
+	{
+		"ingredient": "Bacopa Monniera",
+		"value": "/store/bacopa-monniera.html"
+	},
+	{
+		"ingredient": "Banaba",
+		"value": "/store/banaba.html"
+	},
+	{
+		"ingredient": "Barley Grass",
+		"value": "/store/barley-grass.html"
+	},
+	{
+		"ingredient": "BCAAs",
+		"value": "/store/bcaa.html"
+	},
+	{
+		"ingredient": "Beef Protein",
+		"value": "/store/beef-protein.html"
+	},
+	{
+		"ingredient": "Beta-Alanine",
+		"value": "/store/betalanine.html"
+	},
+	{
+		"ingredient": "Betaine Anhydrous",
+		"value": "/store/beta.html"
+	},
+	{
+		"ingredient": "Bilberry",
+		"value": "/store/bilberry.html"
+	},
+	{
+		"ingredient": "Bio-Active Peptides",
+		"value": "/store/bio-active-peptides.html"
+	},
+	{
+		"ingredient": "Biotin",
+		"value": "/store/biotin.html"
+	},
+	{
+		"ingredient": "Black Cohosh",
+		"value": "/store/cohosh.html"
+	},
+	{
+		"ingredient": "Borage Oil",
+		"value": "/store/borage.html"
+	},
+	{
+		"ingredient": "Boron",
+		"value": "/store/boron.html"
+	},
+	{
+		"ingredient": "Boswellia",
+		"value": "/store/bos.html"
+	},
+	{
+		"ingredient": "Bromelain",
+		"value": "/store/brom.html"
+	},
+	{
+		"ingredient": "Burdock",
+		"value": "/store/burdock.html"
+	},
+	{
+		"ingredient": "Caffeine",
+		"value": "/store/caffeine.html"
+	},
+	{
+		"ingredient": "Calcium",
+		"value": "/store/calcium.html"
+	},
+	{
+		"ingredient": "Carbohydrates",
+		"value": "/store/carbs.htm"
+	},
+	{
+		"ingredient": "Carnosine",
+		"value": "/store/carnosine.html"
+	},
+	{
+		"ingredient": "Cat's Claw",
+		"value": "/store/cats.html"
+	},
+	{
+		"ingredient": "Cayenne",
+		"value": "/store/cayenne.html"
+	},
+	{
+		"ingredient": "Chewable Creatine",
+		"value": "/store/chewablecreatine.html"
+	},
+	{
+		"ingredient": "Chewable Multivitamins",
+		"value": "/store/chewablemultivitamin.html"
+	},
+	{
+		"ingredient": "Chia",
+		"value": "/store/chia.html"
+	},
+	{
+		"ingredient": "Chitosan",
+		"value": "/store/chitopro.html"
+	},
+	{
+		"ingredient": "Chlorella",
+		"value": "/store/chlor.html"
+	},
+	{
+		"ingredient": "Chlorophyll",
+		"value": "/store/chlorophyll.html"
+	},
+	{
+		"ingredient": "Choline",
+		"value": "/store/choline.html"
+	},
+	{
+		"ingredient": "Chondroitin",
+		"value": "/store/chondroitin.html"
+	},
+	{
+		"ingredient": "Chromium",
+		"value": "/store/chromium.html"
+	},
+	{
+		"ingredient": "Chromium Picolinate",
+		"value": "/store/chrompic.html"
+	},
+	{
+		"ingredient": "Chrysin",
+		"value": "/store/chrysin.html"
+	},
+	{
+		"ingredient": "Cinnamon Extract",
+		"value": "/store/cinnamon-extract.html"
+	},
+	{
+		"ingredient": "Cissus Quadrangularis",
+		"value": "/store/cissus.html"
+	},
+	{
+		"ingredient": "Citrulline",
+		"value": "/store/cit.html"
+	},
+	{
+		"ingredient": "CLA",
+		"value": "/store/cla.html"
+	},
+	{
+		"ingredient": "Coconut Oil",
+		"value": "/store/coconut-oil.html"
+	},
+	{
+		"ingredient": "Cod Liver Oil",
+		"value": "/store/cod-liver-oil.html"
+	},
+	{
+		"ingredient": "Coenzyme Q10",
+		"value": "/store/coq.html"
+	},
+	{
+		"ingredient": "Collagen",
+		"value": "/store/collagen.html"
+	},
+	{
+		"ingredient": "Colostrum",
+		"value": "/store/colo.html"
+	},
+	{
+		"ingredient": "Cordyceps",
+		"value": "/store/cordyceps.html"
+	},
+	{
+		"ingredient": "Cranberry",
+		"value": "/store/cranberry.html"
+	},
+	{
+		"ingredient": "Creatine Capsules",
+		"value": "/store/creacap.htm"
+	},
+	{
+		"ingredient": "Creatine Ethyl Ester",
+		"value": "/store/cee.html"
+	},
+	{
+		"ingredient": "Creatine HCl",
+		"value": "/store/creatine-hcl.html"
+	},
+	{
+		"ingredient": "Creatine Magnesium Chelate",
+		"value": "/store/creatine-mg-chelate.html"
+	},
+	{
+		"ingredient": "Creatine Malate",
+		"value": "/store/tricrea.html"
+	},
+	{
+		"ingredient": "Creatine Micronized",
+		"value": "/store/microcrea.htm"
+	},
+	{
+		"ingredient": "Creatine Monohydrate",
+		"value": "/store/creatine-monohydrate.html"
+	},
+	{
+		"ingredient": "Curcumin",
+		"value": "/store/curcumin.html"
+	}
+]

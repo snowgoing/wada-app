@@ -1,0 +1,37 @@
+[
+	{
+		"brand": "Optimum Nutrition",
+		"name": "ZMA",
+		"src": "https://store.bbcomcdn.com/images/store/skuimage/sku_OPT048/image_skuOPT048_largeImage_X_450_white.jpg",
+		"header": {
+			"label_size": "90 Capsules",
+			"label_flavor": null,
+			"label_title": null,
+			"label_serving": "Serving Size 3 Capsules"
+		},
+		"body": [
+			{
+				"ing": "Vitamin B6 (as pyrodoxine HCl)",
+				"qty": "10.5 mg",
+				"dv": "525%*"
+			},
+			{
+				"ing": "Magnesium (as aspartate)",
+				"qty": "450 mg",
+				"dv": "113%*"
+			},
+			{
+				"ing": "Zinc (as aspartate and monomethionine)",
+				"qty": "30 mg",
+				"dv": "200%*"
+			}
+		],
+		"ingredients": [
+			"Gelatin",
+			"Microcrystalline Cellulose",
+			"Magnesium Stearate",
+			"Magnesium Oxide",
+			"Zinc Oxide"
+		]
+	}
+]
