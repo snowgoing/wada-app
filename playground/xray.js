@@ -72,7 +72,7 @@ var getEachProduct = (href) => {
                 dv: v.dv || null
               }
             }),
-            ingredients: item.ingredients.split(', '),
+            ingredients: item.ingredients,
             product_link_bodybuildingDotCom: href,
             facts: item.facts.replace(/\n\s+/g, ', ').trim().split(', ').splice(1)
         }
