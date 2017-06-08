@@ -1,12 +1,30 @@
 [
 	{
+		"_id": "59346ce7d73075577995e47e",
 		"brand": "Beverly International",
 		"name": "7-Keto MuscLEAN, 90 Capsules",
 		"img_src": "https://store.bbcomcdn.com/images/store/skuimage/sku_BEV005/image_skuBEV005_largeImage_X_450_white.jpg",
 		"img_local_path": "img/Beverly_International_7-Keto_MuscLEAN,_90_Capsules.jpg",
 		"desc_short": "Clinically Dosed Fat-Loss & Energy Catalyst*",
 		"desc_long": "Supports Fat-Loss Effects of Diet & Exercise*",
-		"product_content": "Our Ideal Fat-Loss Catalyst.",
+		"product_overview": "Our Ideal Fat-Loss Catalyst.",
+		"product_content": [
+			{
+				"header": "Our Ideal Fat-Loss Catalyst.",
+				"content": "7-Keto MuscLean is a rarity among fat-loss products: While other brands tout the latest \"magic bullet\", this formula has remained unchanged since 2003. That's because it continues to support satisfying results for thousands of Beverly clients.",
+				"bullet": [
+					"Support Fat Loss*",
+					"Promote Muscle Building & Preservation*: 7-Keto Musclean helps preserve lean muscle on a calorie-restricted (e.g. fat-loss or pre-contest) diet.*",
+					"It works! While Lean Out helps your body transport fat to tissues where it can be burned, 7-Keto MuscLean stimulates your metabolism to burn fat more quickly.* When stacked, and combined with diet and exercise, these two Beverly products can truly transform your physique.*",
+					"Clinically based: Its flagship ingredient, 7-Keto®, has been tested in numerous clinical trials and been granted 5 U.S. patents for its effects on weight loss. In clinical studies, men and women who took 7-Keto® while exercising and following a calorie-restricted diet lost an average of 3 times more weight than subjects who took a placebo.*",
+					"Anyone who is training hard on a calorie-restricted diet (e.g. contest prep, cutting, fat-loss).",
+					"Individuals 40 years and over who wish to combat age-associated fat gain.",
+					"Caffeine-tolerant uses: Take 3 capsules in the morning. Repeat 4-6 hours later.",
+					"Caffeine-sensitive users: Begin by assessing your tolerance with 1 capsule. Repeat 4-6 hours later. After 1 week, depending on tolerance, increase your dosage to 2 capsules in the morning and 2 capsules 4-6 hours later. After 2 weeks, depending on tolerance, increase the dosage to 3 capsules in the morning and 3 capsules 4-6 hours later.",
+					"For maximum results, stack Lean Out with 7-Keto Musclean. Users typically report the greatest results when following this practice."
+				]
+			}
+		],
 		"header": {
 			"label_size": "90 Capsules",
 			"label_flavor": null,
@@ -98,6 +116,513 @@
 			"Silica",
 			"Titanium Dioxide",
 			"Microcrystalline Cellulose,"
+		]
+	},
+	{
+		"_id": "59371308748e0137684d516f",
+		"brand": "BSN",
+		"name": "N.O.-Xplode",
+		"img_src": "https://store.bbcomcdn.com/images/store/skuimage/sku_BSN2480008/image_skuBSN2480008_largeImage_X_450_white.jpg",
+		"img_local_path": "img/BSN_N.O.-Xplode.jpg",
+		"desc_short": "The Original Pre-Workout Igniter. Re-Engineered",
+		"desc_long": "Pre-Workout Igniter for Explosive Energy, Enhanced Endurance, and Performance*",
+		"product_overview": "Explosive Energy",
+		"product_content": [
+			{
+				"content": "275mg of caffeine, 1.8g of Beta-Alanine, and unrivaled focus. Get ready to slam plates longer and workout harder. BSN® has re-ignited N.O.-XPLODE®, the first complete pre-workout that launched in 2004 and has been helping athletes break through barriers ever since. Now with more energy, more feel, more focus, and amazing taste. The weights won’t know what hit them.",
+				"bullet": [
+					"275mg of caffeine",
+					"1.8g of Beta-Alanine",
+					"3g Creatine blend",
+					"Explosive energy, focus, endurance, strength and power*"
+				]
+			}
+		],
+		"header": {
+			"label_size": "30 Servings",
+			"label_flavor": "Blue Raz",
+			"label_title": null,
+			"label_serving": [
+				{
+					"label": "Serving Size 1 Scoop (18.5 g)"
+				},
+				{
+					"label": "Servings Per Container 30"
+				}
+			]
+		},
+		"body": [
+			{
+				"ing": "Calories",
+				"qty": "20 ",
+				"dv": "      "
+			},
+			{
+				"ing": "Total Carbohydrate",
+				"qty": "5 g",
+				"dv": "2%‡"
+			},
+			{
+				"ing": "Vitamin D (as Cholecalciferol)",
+				"qty": "500 IU",
+				"dv": "125%"
+			},
+			{
+				"ing": "Vitamin B1 (as Thiamine HCl)",
+				"qty": "2 mg",
+				"dv": "133%"
+			},
+			{
+				"ing": "Niacin (Vitamin B3)",
+				"qty": "20 mg",
+				"dv": "100%"
+			},
+			{
+				"ing": "Vitamin B6 (as Pyridoxine HCl)",
+				"qty": "2 mg",
+				"dv": "100%"
+			},
+			{
+				"ing": "Folate (Folic acid)",
+				"qty": "200 mcg",
+				"dv": "50%"
+			},
+			{
+				"ing": "Vitamin B12 (as Cyanocobalamin)",
+				"qty": "6 mcg",
+				"dv": "100%"
+			},
+			{
+				"ing": "Pantothenic Acid",
+				"qty": "10 mg",
+				"dv": "100%"
+			},
+			{
+				"ing": "Calcium",
+				"qty": "40 mg",
+				"dv": "4%"
+			},
+			{
+				"ing": "Phosphorus",
+				"qty": "10 mg",
+				"dv": "1%"
+			},
+			{
+				"ing": "Magnesium",
+				"qty": "125 mg",
+				"dv": "31%"
+			},
+			{
+				"ing": "Sodium",
+				"qty": "100 mg",
+				"dv": "4%"
+			},
+			{
+				"ing": "Potassium",
+				"qty": "200 mg",
+				"dv": "6%"
+			},
+			{
+				"ing": "Myogenic Matrix*",
+				"qty": "5.1g",
+				"dv": " **"
+			},
+			{
+				"ing": "Creatine Blend (Creatine Monohydrate, Creatine Anhydrous, Creatine Peptides [Hydrolyzed Whey Protein Isolate, Creatine Monohydrate] (CREActivate™)), Taurine, Di-Calcium Phosphate, Di-Sodium Phosphate, AstraGin® Proprietary Blend [Astragalus membranaceus Extract (root), Panax notoginseng Extract (root)]",
+				"qty": null,
+				"dv": null
+			},
+			{
+				"ing": "Endura Shot*",
+				"qty": "2.9g",
+				"dv": " **"
+			},
+			{
+				"ing": "BETA Composite (CARN+™ Blend [Beta-Alanine (as CarnoSyn®) & Beta-Alanine HCl], Potassium Bicarbonate, Sodium Bicarbonate, Magnesium Oxide, Cholecalciferol",
+				"qty": null,
+				"dv": null
+			},
+			{
+				"ing": "Thermic Energy*",
+				"qty": "1.3g",
+				"dv": " **"
+			},
+			{
+				"ing": "N-Acetyl-Tyrosine, Tyrosine, Caffeine Anhydrous, Grapefruit Bioflavonoids, Pterostilbene:Caffeine Cocrystal (PURENERGY™)",
+				"qty": null,
+				"dv": null
+			},
+			{
+				"ing": "N.O. Alpha Fusion",
+				"qty": "1g",
+				"dv": " **"
+			},
+			{
+				"ing": "L-Citrulline Malate, Danshen Extract (Salvia miltiorrhiza) (root), Grape Skin Extract (50% Polyphenols), Phyllanthus emblica Extract (fruit) (CAPROS®), Hawthorn Extract (aerial parts), (1% Flavonoids), Folate",
+				"qty": null,
+				"dv": null
+			},
+			{
+				"ing": "Shock Composite*",
+				"qty": "290mg",
+				"dv": " **"
+			},
+			{
+				"ing": "DMAE Bitartrate, (2-Dimethylaminoethanol), DL-Phenylalanine, Niacin, Calcium D-Pantothenate, Toothed Clubmoss Extract (aerial parts), (1% Huperzine A), Thiamin HCl, Pyridoxine HCl, Cyanocobalamin",
+				"qty": null,
+				"dv": null
+			}
+		],
+		"ingredients": "Natural and Artificial Flavors, Citric Acid, Malic Acid, Calcium Silicate, Silicon Dioxide, Sucralose, Acesulfame Potassium, FD&C Blue #1, FD&C Blue #2",
+		"product_link_bodybuildingDotCom": "https://www.bodybuilding.com/store/bsn/xplode.html",
+		"facts": [
+			"30 Servings",
+			"Blue Raz",
+			"Serving Size 1 Scoop (18.5 g)",
+			"Servings Per Container 30 ",
+			"Amount Per Serving ",
+			"% Daily Value ",
+			"Calories",
+			"20 ",
+			"Total Carbohydrate",
+			"5 g",
+			"2%‡",
+			"Vitamin D (as Cholecalciferol)",
+			"500 IU",
+			"125%",
+			"Vitamin B1 (as Thiamine HCl)",
+			"2 mg",
+			"133%",
+			"Niacin (Vitamin B3)",
+			"20 mg",
+			"100%",
+			"Vitamin B6 (as Pyridoxine HCl)",
+			"2 mg",
+			"100%",
+			"Folate (Folic acid)",
+			"200 mcg",
+			"50%",
+			"Vitamin B12 (as Cyanocobalamin)",
+			"6 mcg",
+			"100%",
+			"Pantothenic Acid",
+			"10 mg",
+			"100%",
+			"Calcium",
+			"40 mg",
+			"4%",
+			"Phosphorus",
+			"10 mg",
+			"1%",
+			"Magnesium",
+			"125 mg",
+			"31%",
+			"Sodium",
+			"100 mg",
+			"4%",
+			"Potassium",
+			"200 mg",
+			"6%",
+			"N.O.-XPLODE™ MASTER PERFORMANCE BLEND* ",
+			"Myogenic Matrix*",
+			"5.1g",
+			"**",
+			"Creatine Blend (Creatine Monohydrate",
+			"Creatine Anhydrous",
+			"Creatine Peptides [Hydrolyzed Whey Protein Isolate",
+			"Creatine Monohydrate] (CREActivate™))",
+			"Taurine",
+			"Di-Calcium Phosphate",
+			"Di-Sodium Phosphate",
+			"AstraGin® Proprietary Blend [Astragalus membranaceus Extract (root)",
+			"Panax notoginseng Extract (root)]",
+			"Endura Shot*",
+			"2.9g",
+			"**",
+			"BETA Composite (CARN+™ Blend [Beta-Alanine (as CarnoSyn®) & Beta-Alanine HCl]",
+			"Potassium Bicarbonate",
+			"Sodium Bicarbonate",
+			"Magnesium Oxide",
+			"Cholecalciferol",
+			"Thermic Energy*",
+			"1.3g",
+			"**",
+			"N-Acetyl-Tyrosine",
+			"Tyrosine",
+			"Caffeine Anhydrous",
+			"Grapefruit Bioflavonoids",
+			"Pterostilbene:Caffeine Cocrystal (PURENERGY™)",
+			"N.O. Alpha Fusion",
+			"1g",
+			"**",
+			"L-Citrulline Malate",
+			"Danshen Extract (Salvia miltiorrhiza) (root)",
+			"Grape Skin Extract (50% Polyphenols)",
+			"Phyllanthus emblica Extract (fruit) (CAPROS®)",
+			"Hawthorn Extract (aerial parts)",
+			"(1% Flavonoids)",
+			"Folate",
+			"Shock Composite*",
+			"290mg",
+			"**",
+			"DMAE Bitartrate",
+			"(2-Dimethylaminoethanol)",
+			"DL-Phenylalanine",
+			"Niacin",
+			"Calcium D-Pantothenate",
+			"Toothed Clubmoss Extract (aerial parts)",
+			"(1% Huperzine A)",
+			"Thiamin HCl",
+			"Pyridoxine HCl",
+			"Cyanocobalamin",
+			"‡ Percent Daily Values are based on a 2,000 calorie diet.",
+			"** Daily Value Not Established.",
+			"Other Ingredients:",
+			"Natural and Artificial Flavors",
+			"Citric Acid",
+			"Malic Acid",
+			"Calcium Silicate",
+			"Silicon Dioxide",
+			"Sucralose",
+			"Acesulfame Potassium",
+			"FD&C Blue #1",
+			"FD&C Blue #2",
+			"Contains: Milk,"
+		]
+	},
+	{
+		"_id": "5937133af3f712379c181f37",
+		"brand": "Optimum Nutrition",
+		"name": "Natural 100% Oats & Whey",
+		"img_src": "https://store.bbcomcdn.com/images/store/skuimage/sku_OPT295/image_skuOPT295_largeImage_X_450_white.jpg",
+		"img_local_path": "img/Optimum_Nutrition_Natural_100_Oats_&_Whey.jpg",
+		"desc_short": "24 Grams Of Protein!",
+		"desc_long": "Great For Breakfast, After Workouts, And Any Time That You Need A Meal On-The-Go!",
+		"product_overview": "Natural 100% Oats and Whey are fundamental elements of an athlete's diet. Naturally low in sugar, Oats supply slow-burning complex carbohydrates and hunger-filling dietary fiber. Whey proteins are readily digested and provide considerable amounts of essential amino acids (EAAs) - especially the three branched chain amino acids (BCAAs). Our Natural 100% Oats & Whey combines the benefits of these nutritional powerhouses in a smooth, drinkable shake that's quick to prepare and equally easy to clean up after. Each serving packs in 24 grams of all-whey protein and as much fiber as a big bowl of oatmeal. Better yet, it tastes great, and it goes down easy. As the name suggests, Natural 100% Oats & Whey is free of artificial flavors, sweeteners, and synthetic colors. So naturally, it's great for breakfast, after workouts, and any time that you're looking for an on-the-go meal.",
+		"product_content": [
+			{
+				"header": "Natural 100% Oats and Whey",
+				"bullet": [
+					"No Artificial Flavors or Sweeteners",
+					"No Synthetic Colors",
+					"Made with Whole Grain Oats Supplying 4 Grams of Dietary Fiber",
+					"24 Grams of All-Whey Protein",
+					"Packed with Premium Whey Protein Isolates (WPI)Smooth, Drinkable Consistency"
+				]
+			}
+		],
+		"header": {
+			"label_size": "3 Lbs.",
+			"label_flavor": "Milk Chocolate",
+			"label_title": "Supplement Facts",
+			"label_serving": [
+				{
+					"label": "Serving Size 1 Heaping Scoop (52g)"
+				},
+				{
+					"label": "Servings Per Container 26"
+				}
+			]
+		},
+		"body": [
+			{
+				"ing": "Calories",
+				"qty": "200",
+				"dv": null
+			},
+			{
+				"ing": "Calories From Fat",
+				"qty": "15",
+				"dv": null
+			},
+			{
+				"ing": "Total Fat",
+				"qty": "1.5g",
+				"dv": "2%"
+			},
+			{
+				"ing": "Saturated Fat",
+				"qty": "1g",
+				"dv": "5%"
+			},
+			{
+				"ing": "Trans Fat",
+				"qty": "0g",
+				"dv": null
+			},
+			{
+				"ing": "Cholesterol",
+				"qty": "40mg",
+				"dv": "13%"
+			},
+			{
+				"ing": "Sodium",
+				"qty": "190mg",
+				"dv": "8%"
+			},
+			{
+				"ing": "Total Carbohydrate",
+				"qty": "23g",
+				"dv": "8%"
+			},
+			{
+				"ing": "Dietary Fiber",
+				"qty": "4g",
+				"dv": "16%"
+			},
+			{
+				"ing": "Sugars",
+				"qty": "9g",
+				"dv": null
+			},
+			{
+				"ing": "Protein",
+				"qty": "24g",
+				"dv": null
+			},
+			{
+				"ing": "Vitamin A",
+				"qty": null,
+				"dv": "0%"
+			},
+			{
+				"ing": "Vitamin C",
+				"qty": null,
+				"dv": "0%"
+			},
+			{
+				"ing": "Calcium",
+				"qty": null,
+				"dv": "10%"
+			},
+			{
+				"ing": "Iron",
+				"qty": null,
+				"dv": "6%"
+			}
+		],
+		"ingredients": "Whey Protein Isolate, Whey Protein Concentrate, Honey Powder, Evaporated Cane Juice Powder, Whole Oat Flour, Oat Fiber, Natural Cocoa Powder, Natural Flavor, Cellulose Gum, Lecithin, Salt, Guar Gum.",
+		"product_link_bodybuildingDotCom": "https://www.bodybuilding.com/store/opt/oatsandwhey.html",
+		"facts": [
+			"3 Lbs.",
+			"Milk Chocolate",
+			"Supplement Facts",
+			"Serving Size1Heaping Scoop(52g)",
+			"Servings Per Container26",
+			"Amount Per Serving",
+			"% Daily Value",
+			"Calories",
+			"200",
+			"Calories From Fat",
+			"15",
+			"Total Fat",
+			"1.5g",
+			"2%",
+			"Saturated Fat",
+			"1g",
+			"5%",
+			"Trans Fat",
+			"0g",
+			"Cholesterol",
+			"40mg",
+			"13%",
+			"Sodium",
+			"190mg",
+			"8%",
+			"Total Carbohydrate",
+			"23g",
+			"8%",
+			"Dietary Fiber",
+			"4g",
+			"16%",
+			"Sugars",
+			"9g",
+			"Protein",
+			"24g",
+			"Vitamin A",
+			"0%",
+			"Vitamin C",
+			"0%",
+			"Calcium",
+			"10%",
+			"Iron",
+			"6%",
+			"* Percent Daily Values are based on a 2,000 calorie diet. Your Daily Values may be higher or lower depending on your calorie needs.,"
+		]
+	},
+	{
+		"_id": "5937135f9d456b37c587f55d",
+		"brand": "Optimum Nutrition",
+		"name": "ZMA",
+		"img_src": "https://store.bbcomcdn.com/images/store/skuimage/sku_OPT048/image_skuOPT048_largeImage_X_450_white.jpg",
+		"img_local_path": "img/Optimum_Nutrition_ZMA.jpg",
+		"desc_short": "Zinc Monomethionine Aspartate",
+		"desc_long": "Support Testosterone Levels And Muscle Strength!*",
+		"product_overview": "A synergistic combination of Zinc Monomethionine Aspartate, Magnesium Aspartate, and Vitamin B6 may significantly increase anabolic hormone levels and muscle strength in well-trained athletes.* The novel Zinc Monomethionine Aspartate formula may also help to support endurance, growth and restful sleep.*",
+		"product_content": [
+			{
+				"header": "Beyond The Basics",
+				"bullet": [
+					"Contains the PATENTED BLEND of Zinc, Magnesium, and Vitamin B6",
+					"May Increase Testosterone Levels and Muscle Strength in Well-Trained Athletes*",
+					"May Offer Even Better Results When Stacked with Creatine, Glutamine, HMB, or Other Strength & Recovery Products*"
+				]
+			}
+		],
+		"header": {
+			"label_size": "90 Capsules",
+			"label_flavor": null,
+			"label_title": null,
+			"label_serving": [
+				{
+					"label": "Serving Size 3 Capsules"
+				},
+				{
+					"label": "Servings Per Container 30"
+				}
+			]
+		},
+		"body": [
+			{
+				"ing": "Vitamin B6 (as pyrodoxine HCl)",
+				"qty": "10.5 mg",
+				"dv": "525%*"
+			},
+			{
+				"ing": "Magnesium (as aspartate)",
+				"qty": "450 mg",
+				"dv": "113%*"
+			},
+			{
+				"ing": "Zinc (as aspartate and monomethionine)",
+				"qty": "30 mg",
+				"dv": "200%*"
+			}
+		],
+		"ingredients": "Gelatin, Microcrystalline Cellulose, Magnesium Stearate, Magnesium Oxide, Zinc Oxide",
+		"product_link_bodybuildingDotCom": "https://www.bodybuilding.com/store/opt/zma.html",
+		"facts": [
+			"90 Capsules",
+			"Serving Size 3 Capsules",
+			"Servings Per Container 30 ",
+			"Amount Per Serving ",
+			"% Daily Value ",
+			"Vitamin B6 (as pyrodoxine HCl)",
+			"10.5 mg",
+			"525%*",
+			"Magnesium (as aspartate)",
+			"450 mg",
+			"113%*",
+			"Zinc (as aspartate and monomethionine)",
+			"30 mg",
+			"200%*",
+			"* Percent Daily Values are based on a 2,000 calorie diet",
+			"Other Ingredients:",
+			"Gelatin",
+			"Microcrystalline Cellulose",
+			"Magnesium Stearate",
+			"Magnesium Oxide",
+			"Zinc Oxide,"
 		]
 	}
 ]

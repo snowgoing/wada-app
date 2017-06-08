@@ -1,4 +1,12 @@
 <div class='callout'>
   <h3>Product Info</h3>
-  <p>{{model.product_content}}</p>
+  {{#each model.product_content}}
+  <p>{{this.header}}</p>
+  <p>{{this.content}}</p>
+  <ul>
+    {{#each this.bullet}}
+    <li>{{this}}</li>
+    {{/each}}
+  </ul>
+  {{/each}}
 </div>

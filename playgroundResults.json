@@ -1,13 +1,35 @@
 [
 	{
+		"_id": "5937135f9d456b37c587f55d",
 		"brand": "Optimum Nutrition",
 		"name": "ZMA",
-		"src": "https://store.bbcomcdn.com/images/store/skuimage/sku_OPT048/image_skuOPT048_largeImage_X_450_white.jpg",
+		"img_src": "https://store.bbcomcdn.com/images/store/skuimage/sku_OPT048/image_skuOPT048_largeImage_X_450_white.jpg",
+		"img_local_path": "img/Optimum_Nutrition_ZMA.jpg",
+		"desc_short": "Zinc Monomethionine Aspartate",
+		"desc_long": "Support Testosterone Levels And Muscle Strength!*",
+		"product_overview": "A synergistic combination of Zinc Monomethionine Aspartate, Magnesium Aspartate, and Vitamin B6 may significantly increase anabolic hormone levels and muscle strength in well-trained athletes.* The novel Zinc Monomethionine Aspartate formula may also help to support endurance, growth and restful sleep.*",
+		"product_content": [
+			{
+				"header": "Beyond The Basics",
+				"bullet": [
+					"Contains the PATENTED BLEND of Zinc, Magnesium, and Vitamin B6",
+					"May Increase Testosterone Levels and Muscle Strength in Well-Trained Athletes*",
+					"May Offer Even Better Results When Stacked with Creatine, Glutamine, HMB, or Other Strength & Recovery Products*"
+				]
+			}
+		],
 		"header": {
 			"label_size": "90 Capsules",
 			"label_flavor": null,
 			"label_title": null,
-			"label_serving": "Serving Size 3 Capsules"
+			"label_serving": [
+				{
+					"label": "Serving Size 3 Capsules"
+				},
+				{
+					"label": "Servings Per Container 30"
+				}
+			]
 		},
 		"body": [
 			{
@@ -26,12 +48,30 @@
 				"dv": "200%*"
 			}
 		],
-		"ingredients": [
+		"ingredients": "Gelatin, Microcrystalline Cellulose, Magnesium Stearate, Magnesium Oxide, Zinc Oxide",
+		"product_link_bodybuildingDotCom": "https://www.bodybuilding.com/store/opt/zma.html",
+		"facts": [
+			"90 Capsules",
+			"Serving Size 3 Capsules",
+			"Servings Per Container 30 ",
+			"Amount Per Serving ",
+			"% Daily Value ",
+			"Vitamin B6 (as pyrodoxine HCl)",
+			"10.5 mg",
+			"525%*",
+			"Magnesium (as aspartate)",
+			"450 mg",
+			"113%*",
+			"Zinc (as aspartate and monomethionine)",
+			"30 mg",
+			"200%*",
+			"* Percent Daily Values are based on a 2,000 calorie diet",
+			"Other Ingredients:",
 			"Gelatin",
 			"Microcrystalline Cellulose",
 			"Magnesium Stearate",
 			"Magnesium Oxide",
-			"Zinc Oxide"
+			"Zinc Oxide,"
 		]
 	}
 ]

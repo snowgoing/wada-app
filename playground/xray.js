@@ -3,6 +3,7 @@ require('./../server/config/config');
 const Xray = require('x-ray');
 const fs = require('fs');
 const download = require('download');
+const { ObjectID } = require('mongodb');
 
 var { Product } = require('./../server/models/product');
 var { mongoose } = require('./../server/db/mongoose');
@@ -16,7 +17,12 @@ var getEachProduct = (href) => {
           brand: '.Product__brand',
           desc_short: '.Product__desc-short',
           desc_long: '.Product__desc-long',
-          product_content: '.product-content p:first-child',
+          overview: '.product-content p:first-child',
+          product_content: xray('.product-content', [{
+            header: 'strong',
+            content: 'p:nth-child(2)',
+            bullet: ['li']
+          }]),
           name: '.Product__name',
           ingredients: '.label_ing_2',
           src: '.Product__img @src',
@@ -39,6 +45,7 @@ var getEachProduct = (href) => {
 
       }]
   )(function(err, product) {
+      // also replace percentage sign "%" before saving stringifyImgTitle
       var stringifyImgTitle = product[0].brand + ' ' + product[0].name;
       stringifyImgTitle = stringifyImgTitle.trim().replace(/\s+/g, '_');
 
@@ -48,13 +55,21 @@ var getEachProduct = (href) => {
 
     product = product.map(item => {
         return {
+            _id: new ObjectID(),
             brand: item.brand.trim(),
             name: item.name.trim(),
             img_src: item.src,
             img_local_path: `img/${stringifyImgTitle}.jpg`,
             desc_short: item.desc_short,
             desc_long: item.desc_long,
-            product_content: item.product_content.replace(/\n/g, '').trim(),
+            product_overview: item.overview,
+            product_content: item.product_content.map(p => {
+              return {
+                header: p.header,
+                content: p.content,
+                bullet: p.bullet
+              }
+            }),
             header: {
               label_size: item.label_size || null,
               label_flavor: item.label_flavor || null,
@@ -79,12 +94,14 @@ var getEachProduct = (href) => {
     });
     product[0].body = removeDuplicatesBy(x => x.ing, product[0].body);
     // console.log(product);
-    fs.writeFile('./playgroundResults2.json', JSON.stringify(product, null, '\t'));
+    fs.writeFile('./playgroundResults.json', JSON.stringify(product, null, '\t'));
   })
 }
+var testData = [
+  'https://www.bodybuilding.com/store/opt/oatsandwhey.html',
+  'https://www.bodybuilding.com/store/bsn/xplode.html',
+  'https://www.bodybuilding.com/store/opt/zma.html',
+  'https://www.bodybuilding.com/store/bev/7keto.html'
+];
 
-// getEachProduct('https://www.bodybuilding.com/store/opt/oatsandwhey.html?searchTerm=optimum%20nutrition%20whey%20oat');
-// getEachProduct('https://www.bodybuilding.com/store/opt/oatsandwhey.html');
-// getEachProduct('https://www.bodybuilding.com/store/bsn/xplode.html');
-// getEachProduct('https://www.bodybuilding.com/store/opt/zma.html');
-getEachProduct('https://www.bodybuilding.com/store/bev/7keto.html');
+getEachProduct(testData[2]);

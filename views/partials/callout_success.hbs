@@ -1,5 +1,8 @@
 <div class='product_flex'>
   <div>
+    {{#if fail}}
+    <h1>FAIL</h1>
+    {{/if}}
     <img src="{{model.img_local_path}}" />
   </div>
   <div>
