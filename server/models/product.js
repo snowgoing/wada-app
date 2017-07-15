@@ -17,7 +17,8 @@ var ProductSchema = new mongoose.Schema({
   },
   facts: {
     type: [String]
-  }
+  },
+  pass: Boolean
 });
 
 var Product = mongoose.model('Product', ProductSchema);

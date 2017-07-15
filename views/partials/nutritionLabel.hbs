@@ -1,21 +1,32 @@
-<div class='callout'>
-  <p>{{model.header.label_size}}</p>
-  {{#each model.header.label_serving}}
-    <p>{{this.label}}</p>
-  {{/each}}
-</div>
-<div class='callout'>
-  {{#each model.body}}
-  <div class='label_flex'>
-    <p>{{this.ing}}</p>
-    <p>{{this.qty}}</p>
-    <p>{{this.dv}}</p>
+<div class='nutrition-label'>
+  <div>
+    <p>{{this.header.label_size}}</p>
+    {{#each this.header.label_serving}}
+      <p>{{this.label}}</p>
+    {{/each}}
   </div>
-  {{/each}}
-</div>
-<div class='callout'>
-  <h6>{{checkIngredientTitle}}</h6>
-  <p>
-    {{model.ingredients}}
-  </p>
+  <div class='divider' style="border: 2px solid black;"></div>
+  <div>
+    <div class='amount-serving-header'>
+      <p>Amount Per Serving</p>
+      <p>% Daily Value</p>
+    </div>
+    <div class='divider-thick'></div>
+    {{#each this.body}}
+    <div class='divider'></div>
+    <div class='daily-value'>
+      {{checkIndent this}}
+      <p class='ingredient'>{{this.ing}}</p>
+      <p class='quantity'>{{this.qty}}</p>
+      <p class='daily'>{{this.dv}}</p>
+    </div>
+    {{/each}}
+  </div>
+  <div class='divider' style="border: 2px solid black;"></div>
+  <div>
+    <h6>{{checkIngredientTitle}}</h6>
+    <p>
+      {{this.ingredients}}
+    </p>
+  </div>
 </div>

@@ -1,18 +1,25 @@
-<div class='product_flex'>
-  <div>
-    {{#if fail}}
-    <h1>FAIL</h1>
-    {{/if}}
-    <img src="{{model.img_local_path}}" />
+{{#if fail}}
+<div class='fail-alert'>
+  <h1 style="text-align: center;">FAIL</h1>
+</div>
+{{/if}}
+
+<div class='container'>
+  <div class='product-image'>
+    <img src="{{this.img_local_path}}" />
   </div>
-  <div>
-    <a href="{{model.product_link_bodybuildingDotCom}}" />{{model.brand}}</a>
-    <h3>{{model.name}}</h3>
-    <p>
-      {{model.desc_short}}
-    </p>
-    <p>
-      {{model.desc_long}}
-    </p>
+  <div class='product-title'>
+    <div>
+      <a href="{{this.product_link_bodybuildingDotCom}}" />{{this.brand}}</a>
+      <h5>{{this.name}}</h5>
+      <p>
+        {{this.desc_short}}
+      </p>
+      <p class='long-description'>
+        {{this.desc_long}}
+      </p>
+    </div>
   </div>
+  {{> productInfo}}
+  {{> nutritionLabel this}}
 </div>
