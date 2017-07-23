@@ -4,7 +4,7 @@ $(document).ready(function(){
   $("#searchText").on('focus', function(){
     var el = $('#searchText'),
         val = el.val(),
-        url = 'http://localhost:3000/product_titles',
+        url = '/product_titles',
         arr = [];
 
     console.log(val);
@@ -36,9 +36,9 @@ $(document).ready(function(){
           if(data.error || data.length === 0) {
             alert('Product not found');
           } else if (data.length === 1) {
-              window.location.href = "http://localhost:3000/product";
+              window.location.href = "/product";
           } else {
-            window.location.href = "http://localhost:3000/products";
+            window.location.href = "/products";
           }
         },
         error: function() {
