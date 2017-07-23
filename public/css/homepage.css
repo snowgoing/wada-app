@@ -21,7 +21,7 @@ body {
 	height: 50vh;
 	width: 100vw;
   background: black;
-  background: #000 url('./../img/rectangle.png') repeat content-box center;
+  background: #000 url('./../img/Rectangle.png') repeat content-box center;
   background-position: -340px -130px;
 }
 
