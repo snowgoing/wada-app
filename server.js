@@ -8,7 +8,7 @@ var nodemailer = require('nodemailer');
 var mg = require('nodemailer-mailgun-transport');
 var nconf = require('nconf');
 
-var auth =  require('./config.json');
+// var auth =  require('./config.json');
 var app = express();
 var PORT = process.env.PORT || 3000;
 
