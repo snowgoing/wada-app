@@ -220,7 +220,7 @@
       "Raloxifene",
       "Tamoxifen",
       "Toremifene",
-      "Other anti-estrogenic substances",
+      "anti-estrogenic substances",
       "Clomiphene",
       "Cyclofenil",
       "Fulvestrant",
@@ -391,8 +391,15 @@
       "by_sport": false
     },
     "prohibited": [
-      "Natural, e.g. cannabis, hashish and marijuana, or synthetic Δ9-tetrahydrocannabinol (THC)",
-      "Cannabimimetics, e.g. “Spice”, JWH-018, JWH-073, HU-210"
+      "cannabis",
+      "hashish",
+      "marijuana",
+      "synthetic Δ9-tetrahydrocannabinol (THC)",
+      "Cannabimimetics",
+      "Spice",
+      "JWH-018",
+      "JWH-073",
+      "HU-210"
     ],
     "sports": null
   },

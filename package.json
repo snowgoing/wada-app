@@ -10,8 +10,13 @@
     "hbs": "^4.0.1",
     "jquery": "^3.2.1",
     "jsdom": "^11.0.0",
+    "lodash": "^4.17.4",
     "mongodb": "^2.2.28",
     "mongoose": "^4.9.9",
+    "morgan": "latest",
+    "nconf": "latest",
+    "nodemailer": "latest",
+    "nodemailer-mailgun-transport": "latest",
     "pdf2json": "^1.1.7",
     "x-ray": "^2.3.2"
   },

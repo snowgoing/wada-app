@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100vw;
+  height: 100%;
+  background: #fff url('./../img/graffiti_wall.png') repeat content-box center;
+  opacity: 60%;
+  border: 1px solid white; /* weird fix for whitespace above bg image */
+}
+
+.wrapper span {
+  font-weight: bold;
+  padding: 0 0 0 5px;
+}
+
+.results-header {
+  padding: 20px 0 20px 10vw;
+  font: 500 20px "Apple SD Gothic Neo", Tahoma;
+}

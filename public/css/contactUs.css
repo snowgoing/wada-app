@@ -1,0 +1,41 @@
+/* .wrapper is located in manyProductPage.css */
+
+.wrapper h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 20px auto;
+  color: #2a2a2a;
+}
+
+.contact-box {
+  width: 40vw;
+  height: 60vh;
+  min-height: 300px;
+  border: 1px solid #aeaeae;
+  box-shadow: 1px 1px 1px #9b9b9b;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 10px;
+  background: white;
+  border-radius: 15px;
+  box-sizing: content-box;
+}
+
+.contact-box form > input {
+  width: 30vw;
+}
+
+.contact-box form textarea {
+  width: 30vw;
+  min-height: 20vh;
+  max-height: 23vh;
+}
+.contact-box input[type=submit] {
+  width: 29vw;
+   height: 5vh;
+  line-height: 5vh;
+  border-radius: 10px;
+  background: #1A4082;
+  color: #bebebe;
+}

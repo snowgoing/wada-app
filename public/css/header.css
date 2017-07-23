@@ -1,0 +1,43 @@
+.banner {
+  width: 100vw;
+  height: 100px;
+  background: black;
+  background: #000 url('./../img/rectangle.png') no-repeat content-box center;
+  box-shadow: 0 2px 4px #000;
+}
+
+.banner input[type=search] {
+  height: 35px;
+  /*line-height: 35px;*/
+  width: 220px;
+  border-radius: 20px;
+  margin: 8px 0 0 82vw;
+  font-size: 14px;
+  transition: ease-in-out, height .25s ease-in-out, width .25s ease-in-out, margin .25s ease-in-out;
+}
+
+.banner input[type=search]:focus {
+  width: 250px;
+  height: 40px;
+  /*background: rgba(255, 125, 125, .5);*/
+  margin: 8px 0 0 81vw;
+}
+
+.header-product-page {
+  width: 100vw;
+  height: 40px;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+.header-product-page img:first-child {
+  height: 170px;
+  width: auto;
+}
+
+.header-product-page a:nth-child(2) img {
+  height: 40px;
+  width: auto;
+  margin: -340px 0 0 95vw;
+}

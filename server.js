@@ -3,14 +3,19 @@ require('./server/config/config');
 const express = require('express');
 const bodyParser = require('body-parser');
 const hbs = require('hbs');
+var logger = require("morgan");
+var nodemailer = require('nodemailer');
+var mg = require('nodemailer-mailgun-transport');
+var nconf = require('nconf');
 
+var auth =  require('./config.json');
 var app = express();
 var PORT = process.env.PORT || 3000;
 
 var model = require('./playgroundResults.json')[0];
 var models = require('./playgroundResults.json');
-var { mongoose } = require('./server/db/mongoose');
-var { WadaClass } = require('./server/models/wada_list');
+// var { mongoose } = require('./server/db/mongoose');
+// var { WadaClass } = require('./server/models/wada_list');
 
 hbs.registerPartials(__dirname + '/views/partials');
 app.set('view engine', 'hbs');
@@ -64,7 +69,7 @@ app.get('/contact', (req, res) => {
   res.render('contactUs.hbs');
 });
 
-app.post('/contactForm', (req, res) => {
+app.post('/contact', (req, res) => {
   console.log('Form submitted', req.body);
   res.render('contactUs.hbs');
 });
@@ -73,11 +78,11 @@ app.get('/product_titles', (req, res) => {
   res.send(models).status(200);
 });
 
-app.get('/wada_api', (req, res) => {
-  WadaClass.find({}).then(docs => {
-    res.send(docs).status(200);
-  }, e => res.status(400).send(e));
-});
+// app.get('/wada_api', (req, res) => {
+//   WadaClass.find({}).then(docs => {
+//     res.send(docs).status(200);
+//   }, e => res.status(400).send(e));
+// });
 
 app.get('/test', (req, res) => {
   var searchStr = req.query.searchTerm;
