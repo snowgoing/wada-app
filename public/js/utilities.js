@@ -67,7 +67,7 @@ $(document).ready(function(){
       type: "GET",
       data: this.id,
       success: function(data){
-        window.location.href = "http://localhost:3000/product";
+        window.location.href = "/product";
       }
     })
   });
