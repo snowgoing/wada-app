@@ -21,7 +21,7 @@
     "x-ray": "^2.3.2"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "node server.js",
     "test": "",
     "test-watch": ""
   }
