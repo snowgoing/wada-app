@@ -14,6 +14,8 @@ body {
   margin: 0;
   padding-bottom: 30px;
   min-height: 100%;
+  background: #fff url('./../img/graffiti_wall.png') repeat content-box center;
+
   /*font-family: "Helvetica Neue", Arial, sans-serif;*/
 }
 
@@ -28,6 +30,12 @@ body {
 .top-half img {
   width: 35vw;
 }
+
+.top-half img:nth-child(2) {
+  min-width: 15rem;
+  /*border: 2px solid red;*/
+}
+
 .header {
   width: 100vw;
   height: 40px;
@@ -53,7 +61,7 @@ body {
   height: 30px;
   line-height: 30px;
   padding: 0;
-  position: absolute;
+  position: fixed;
 	right: 0;
   bottom: 0;
   left: 0;
@@ -139,4 +147,14 @@ body {
   font-family: "Apple SD Gothic Neo", Tahoma;
   font-size: 14px;
   text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+@media (max-width: 600px) {
+  .bottom-half h2 {
+    text-shadow: 1px 1px 1px rgba(80,80,80,0.8);
+  }
+
+  .search-box {
+    width: 100vw;
+  }
 }

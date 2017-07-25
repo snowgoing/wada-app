@@ -102,3 +102,25 @@
   font-size: 12px;
   font-weight: 400;
 }
+
+@media (max-width: 600px) {
+	.manybox-header p:nth-child(2) {
+		display: none;
+	}
+
+	.manybox-header p:nth-child(3) {
+		display: none;
+	}
+	button {
+		display: none;
+	}
+	.product-box div:nth-child(3) p {
+	  display: none;
+	}
+	.product-box div:nth-child(2) {
+	  grid-column: 6 / 12;
+	  text-align: left;
+	  padding-left: 12px;
+	  /*border: 1px solid red;*/
+	}
+}

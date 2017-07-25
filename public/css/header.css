@@ -2,25 +2,37 @@
   width: 100vw;
   height: 100px;
   background: black;
-  background: #000 url('./../img/rectangle.png') no-repeat content-box center;
+  background: #000 url('./../img/Rectangle.png') no-repeat content-box center;
   box-shadow: 0 2px 4px #000;
+  /*border: 2px solid green;*/
+
 }
 
 .banner input[type=search] {
+  display: block;
   height: 35px;
   /*line-height: 35px;*/
-  width: 220px;
+  width: 20rem;
   border-radius: 20px;
-  margin: 8px 0 0 82vw;
+  /*margin: 8px 0 0 82vw;*/
   font-size: 14px;
   transition: ease-in-out, height .25s ease-in-out, width .25s ease-in-out, margin .25s ease-in-out;
 }
 
 .banner input[type=search]:focus {
-  width: 250px;
+  width: 21rem;
   height: 40px;
   /*background: rgba(255, 125, 125, .5);*/
-  margin: 8px 0 0 81vw;
+  /*margin: 8px 0 0 81vw;*/
+}
+
+.banner div:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner div:nth-child(2) div {
+  padding-top: 10px;
 }
 
 .header-product-page {
@@ -29,15 +41,26 @@
   line-height: 40px;
   background: rgba(0, 0, 0, 0.5);
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
 }
 
-.header-product-page img:first-child {
-  height: 170px;
-  width: auto;
+.header-product-page p a {
+  color: #9f9f9f;
 }
 
-.header-product-page a:nth-child(2) img {
+.header-product-page div a img {
   height: 40px;
   width: auto;
-  margin: -340px 0 0 95vw;
+  /*margin: -340px 0 0 95vw;*/
+  /*border: 2px solid red;*/
+}
+
+@media (max-width: 600px) {
+  .banner div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+  }
 }

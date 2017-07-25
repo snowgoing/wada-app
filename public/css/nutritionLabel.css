@@ -10,6 +10,7 @@ p {
   grid-auto-rows: minmax(200px, auto);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
+  background-color: #fff;
   /*border: 3px solid orange;*/
 }
 
@@ -24,6 +25,18 @@ p {
   grid-row: 1;
   /*background-color: rgba(0, 0, 125, .4);*/
   /*border: 3px solid red;*/
+}
+
+.product-title a {
+  font-size: .8rem;
+}
+
+.product-title div > p {
+  font-size: .9rem;
+}
+
+.product-title div:first-child {
+  padding: 10px;
 }
 
 .product-content {
@@ -73,4 +86,26 @@ p {
 .daily {
   grid-column: 8 / 9;
   grid-row: 1;
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .container > div {
+    /*border: 1px solid red;*/
+  }
+
+  .product-image {
+    width: 40%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .product-title {
+    margin: 10px auto;
+  }
 }

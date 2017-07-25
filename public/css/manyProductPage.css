@@ -3,7 +3,7 @@
   height: 100%;
   background: #fff url('./../img/graffiti_wall.png') repeat content-box center;
   opacity: 60%;
-  border: 1px solid white; /* weird fix for whitespace above bg image */
+  /*border: 1px solid white; /* weird fix for whitespace above bg image */*/
 }
 
 .wrapper span {
