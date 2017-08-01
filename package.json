@@ -17,7 +17,6 @@
     "nconf": "latest",
     "nodemailer": "latest",
     "nodemailer-mailgun-transport": "latest",
-    "pdf2json": "^1.1.7",
     "x-ray": "^2.3.2"
   },
   "scripts": {
