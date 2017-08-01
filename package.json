@@ -11,7 +11,7 @@
     "jquery": "^3.2.1",
     "jsdom": "^11.0.0",
     "lodash": "^4.17.4",
-    "mongodb": "latest",
+    "mongodb": "^2.2.30",
     "mongoose": "^4.11.5",
     "morgan": "latest",
     "nconf": "latest",
