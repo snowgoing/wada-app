@@ -59,8 +59,8 @@ var getEachProduct = (items) => {
   var allItems = [];
 
   for (x = 0; x < items.length; x++) {
-    setTimeout((href) => {
-      xray(href, '#main',
+    setTimeout((url) => {
+      xray(url, '#main',
           [{
               brand: '.Product__brand',
               desc_short: '.Product__desc-short',
@@ -91,17 +91,19 @@ var getEachProduct = (items) => {
               }])
 
           }]
-      )(function(err, product) {
-          var stringifyImgTitle = product[0].brand + ' ' + product[0].name;
+      )(function(err, prod) {
+          var stringifyImgTitle = prod[0].brand + ' ' + prod[0].name;
           stringifyImgTitle = stringifyImgTitle.trim().replace(/\s+/g, '_').replace(/\%+/g, '');
 
-          download(product[0].src).then((data) => {
+          download(prod[0].src).then((data) => {
             fs.writeFileSync(`public/img/${stringifyImgTitle}.jpg`, data);
           });
 
-        product = product.map(item => {
+        prod = prod.map(item => {
+            var id = new ObjectID();
             return {
-                _id: new ObjectID(),
+                _id: id,
+                key: 'key' + id.toString(),
                 brand: item.brand.trim(),
                 name: function() {
                   var firstComma = item.name.indexOf(',');
@@ -121,7 +123,7 @@ var getEachProduct = (items) => {
                 //     bullet: p.bullet
                 //   }
                 // }),
-                header: {
+                label_header: {
                   label_size: item.label_size || null,
                   label_flavor: item.label_flavor || null,
                   label_title: item.label_title || null,
@@ -131,7 +133,7 @@ var getEachProduct = (items) => {
                     }
                   })
                 },
-                body: item.td.map(v => {
+                content_body: item.td.map(v => {
                   return {
                     ing: v.ing.replace(/\n/g, '').trim() || null,
                     qty: v.qty || null,
@@ -144,12 +146,20 @@ var getEachProduct = (items) => {
             }
         });
 
-        product[0].body = removeDuplicatesBy(x => x.ing, product[0].body);
-        product[0].raw_data = createRawData(product[0]);
-        // product[0].passOrFail = passOrFail(product[0]);
-        allItems.push.apply(allItems, product);
-        // console.log(product);
-        fs.writeFile('./playgroundResults3.json', JSON.stringify(allItems, null, '\t'));
+        prod[0].content_body = removeDuplicatesBy(x => x.ing, prod[0].body);
+        // prod[0].raw_data = createRawData(prod[0]);
+        // prod[0].passOrFail = passOrFail(prod[0]);
+        allItems.push.apply(allItems, prod);
+        // console.log(prod);
+        // fs.writeFile('./playgroundResults3.json', JSON.stringify(allItems, null, '\t'));
+
+        var product = new Product(prod[0]);
+        product.save().then(doc => {
+          res.send(doc);
+        }, e => {
+          res.status(400).send(e);
+        })
+
       })
     }, x * 20000, items[x]);
   }

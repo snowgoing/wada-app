@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding-bottom: 30px;
   min-height: 100%;
-  background: #fff url('./../img/graffiti_wall.png') repeat content-box center;
+  background: #fff url('./../img/utilityImages/graffiti_wall.png') repeat content-box center;
 
   /*font-family: "Helvetica Neue", Arial, sans-serif;*/
 }
@@ -23,7 +23,7 @@ body {
 	height: 50vh;
 	width: 100vw;
   background: black;
-  background: #000 url('./../img/Rectangle.png') repeat content-box center;
+  background: #000 url('./../img/utilityImages/Rectangle.png') repeat content-box center;
   background-position: -340px -130px;
 }
 
@@ -65,7 +65,7 @@ body {
 	right: 0;
   bottom: 0;
   left: 0;
-  background: #4D575C url('./../img/footer.png') repeat content-box center;
+  background: #4D575C url('./../img/utilityImages/footer.png') repeat content-box center;
   text-align: right;
 }
 
@@ -73,7 +73,7 @@ body {
 	height: 45vh;
 	width: 100vw;
   background: white;
-  background: #fff url('./../img/graffiti_wall.png') repeat content-box center;
+  background: #fff url('./../img/utilityImages/graffiti_wall.png') repeat content-box center;
   /*background-position: -340px -130px;*/
   opacity: 68%;
   text-align: center;
@@ -148,6 +148,13 @@ body {
   font-size: 14px;
   text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
 }
+
+.search-box img {
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 5px;
+}
+
 
 @media (max-width: 600px) {
   .bottom-half h2 {

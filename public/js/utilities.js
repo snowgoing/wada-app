@@ -1,41 +1,24 @@
 $(document).ready(function(){
 
-
   $("#searchText").on('focus', function(){
-    var el = $('#searchText'),
-        val = el.val(),
-        url = '/product_titles',
-        arr = [];
-
-    console.log(val);
-
-    $.get(url, function(data){
-      if (data) {
-        arr = data.map(function(prod) {
-          return prod.name;
-        });
+    $.get('/product_titles', function(data){
         $('#searchText').autocomplete({
-          source: arr
+          source: data.strTitles
         });
-      }
-      console.log('Data retrieved from Server: ', arr);
     });
-    // var items = arr.filter(function(name){
-    //   return name.indexOf(val) > -1;
-    // })
   });
 
   $('#searchText').on('keypress', function(e){
     var text = $('#searchText').val().toLowerCase().trim();
     if(e.which == 13 && text.length > 0){
       $.ajax({
-        url: '/test',
+        url: '/product_search',
         type: 'GET',
-        data: {searchTerm: text},
+        data: {searchText: text},
         success: function(data) {
-          if(data.error || data.length === 0) {
+          if(data.error || data.docs.length === 0) {
             alert('Product not found');
-          } else if (data.length === 1) {
+          } else if (data.docs.length === 1) {
               window.location.href = "/product";
           } else {
             window.location.href = "/products";
@@ -48,24 +31,10 @@ $(document).ready(function(){
     }
   });
 
-  // $('button').on('click', function() {
-  //
-  //   $.ajax({
-  //     url: "/test/" + this.id,
-  //     type: "GET",
-  //     data: this.id,
-  //     success: function(data){
-  //       window.location.href = "http://localhost:3000/product";
-  //     }
-  //   })
-  // });
-
   $('.manybox').on('click', function() {
-    console.log('Temp: ', this.id);
     $.ajax({
-      url: "/test/" + this.id,
+      url: "/product_search/" + this.id,
       type: "GET",
-      data: this.id,
       success: function(data){
         window.location.href = "/product";
       }
@@ -101,3 +70,36 @@ $(document).ready(function(){
 //     }
 //   });
 // });
+
+
+// $('#scanItem').on('click', function() {
+//
+//   navigator.getUserMedia = navigator.getUserMedia ||
+//                        navigator.webkitGetUserMedia ||
+//                        navigator.mozGetUserMedia;
+//
+//   if (navigator.getUserMedia) {
+//      navigator.getUserMedia({ audio: true, video: { width: 1280, height: 720 } },
+//         function(stream) {
+//            var video = document.querySelector('video');
+//            video.src = window.URL.createObjectURL(stream);
+//            video.onloadedmetadata = function(e) {
+//              video.play();
+//            };
+//         },
+//         function(err) {
+//            console.log("The following error occured: " + err.name);
+//         }
+//      );
+//   } else {
+//      console.log("getUserMedia not supported");
+//   }
+//
+// });
+
+
+
+
+// var items = arr.filter(function(name){
+//   return name.indexOf(val) > -1;
+// })

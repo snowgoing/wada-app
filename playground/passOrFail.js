@@ -1,16 +1,12 @@
 require('./../server/config/config');
 
 var _ = require('lodash');
+const fs = require('fs');
 
 var bannedList = require('./../wada_prohibited_list_2017.json');
 var prodList = require('./../playgroundResults.json');
-var wordExlusions = [
-  "transform",
-  "lost",
-  "more",
-  "than",
-  "like"
-].toString();
+var wordsToBeReviewed = [];
+var wordExlusions = require('./../wordExlusions.json').wordsToExclude;
 
 var createRawData = (prod) => {
   var rawArr = [];
@@ -57,11 +53,22 @@ var checkProduct = (prod) => {
   })
   var noDupsCont = _.uniq(possibleIng);
   var noDupsBan = _.uniq(bannedItems);
+  wordsToBeReviewed.push.apply(wordsToBeReviewed, noDupsCont);
+  var noDups = _.uniq(wordsToBeReviewed);
+
+  // fs.writeFile('./wordExlusions.json', JSON.stringify({wordsToExclude: noDups}, null, '\t'));
+
+
   console.log(`${prod.name}: ${noDupsCont}`);
   console.log(`${prod.name}: ${noDupsBan}`);
-  
+  // console.log('Words:', noDups);
+
 };
 
 // checkProduct(prodList[0]);
-checkProduct(prodList[3]);
-// createRawData(prodList[3]);
+// checkProduct(prodList[3]);
+
+prodList.forEach(x => {
+  checkProduct(x);
+  console.log('\n');
+})

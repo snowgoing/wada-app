@@ -1,7 +1,7 @@
 <div class='nutrition-label'>
   <div>
-    <p>{{this.header.label_size}}</p>
-    {{#each this.header.label_serving}}
+    <p>{{this.label_header.label_size}}</p>
+    {{#each this.label_header.label_serving}}
       <p>{{this.label}}</p>
     {{/each}}
   </div>
@@ -12,7 +12,7 @@
       <p>% Daily Value</p>
     </div>
     <div class='divider-thick'></div>
-    {{#each this.body}}
+    {{#each this.content_body}}
     <div class='divider'></div>
     <div class='daily-value'>
       {{checkIndent this}}

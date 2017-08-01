@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100px;
   background: black;
-  background: #000 url('./../img/Rectangle.png') no-repeat content-box center;
+  background: #000 url('./../img/utilityImages/Rectangle.png') no-repeat content-box center;
   box-shadow: 0 2px 4px #000;
   /*border: 2px solid green;*/
 

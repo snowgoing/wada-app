@@ -47,7 +47,7 @@
 				]
 			}
 		],
-		"header": {
+		"label_header": {
 			"label_size": "3 Lbs.",
 			"label_flavor": "Milk Chocolate",
 			"label_title": "Supplement Facts",
@@ -60,7 +60,7 @@
 				}
 			]
 		},
-		"body": [
+		"content_body": [
 			{
 				"ing": "Calories",
 				"qty": "200",
@@ -184,8 +184,7 @@
 			"Iron",
 			"6%",
 			"* Percent Daily Values are based on a 2,000 calorie diet. Your Daily Values may be higher or lower depending on your calorie needs.,"
-		],
-		"pass": true
+		]
 	},
 	{
 		"_id": "593c6cbfafa44df124daf1c3",
@@ -338,7 +337,7 @@
 				"headers": []
 			}
 		],
-		"header": {
+		"label_header": {
 			"label_size": "30 Servings",
 			"label_flavor": "Blue Raz",
 			"label_title": null,
@@ -351,7 +350,7 @@
 				}
 			]
 		},
-		"body": [
+		"content_body": [
 			{
 				"ing": "Calories",
 				"qty": "20 ",
@@ -588,8 +587,7 @@
 			"FD&C Blue #1",
 			"FD&C Blue #2",
 			"Contains: Milk,"
-		],
-		"pass": true
+		]
 	},
 	{
 		"_id": "593c6cd3afa44df124daf1c4",
@@ -627,7 +625,7 @@
 				]
 			}
 		],
-		"header": {
+		"label_header": {
 			"label_size": "90 Capsules",
 			"label_flavor": null,
 			"label_title": null,
@@ -640,7 +638,7 @@
 				}
 			]
 		},
-		"body": [
+		"content_body": [
 			{
 				"ing": "Vitamin B6 (as pyrodoxine HCl)",
 				"qty": "10.5 mg",
@@ -681,8 +679,7 @@
 			"Magnesium Stearate",
 			"Magnesium Oxide",
 			"Zinc Oxide,"
-		],
-		"pass": true
+		]
 	},
 	{
 		"_id": "593c6ce7afa44df124daf1c5",
@@ -742,7 +739,7 @@
 				]
 			}
 		],
-		"header": {
+		"label_header": {
 			"label_size": "90 Capsules",
 			"label_flavor": null,
 			"label_title": null,
@@ -755,7 +752,7 @@
 				}
 			]
 		},
-		"body": [
+		"content_body": [
 			{
 				"ing": "Niacin",
 				"qty": "20 mg",
@@ -833,8 +830,7 @@
 			"Silica",
 			"Titanium Dioxide",
 			"Microcrystalline Cellulose,"
-		],
-		"pass": true
+		]
 	},
 	{
 		"_id": "593c6cfcafa44df124daf1c6",
@@ -928,7 +924,7 @@
 				"headers": []
 			}
 		],
-		"header": {
+		"label_header": {
 			"label_size": null,
 			"label_flavor": null,
 			"label_title": null,
@@ -941,7 +937,7 @@
 				}
 			]
 		},
-		"body": [
+		"content_body": [
 			{
 				"ing": "Vitamin C (ascorbic acid)",
 				"qty": "500 mg",
@@ -1017,8 +1013,7 @@
 			"titanium dioxide",
 			"talc",
 			"FD&C yellow #5 aluminum lake,"
-		],
-		"pass": true
+		]
 	},
 	{
 		"_id": "593c6d0fafa44df124daf1c7",
@@ -1322,7 +1317,7 @@
 				"headers": []
 			}
 		],
-		"header": {
+		"label_header": {
 			"label_size": "20 Servings",
 			"label_flavor": "Cherry Limeade",
 			"label_title": null,
@@ -1335,7 +1330,7 @@
 				}
 			]
 		},
-		"body": [
+		"content_body": [
 			{
 				"ing": "Calories",
 				"qty": "15 ",
@@ -1509,7 +1504,6 @@
 			"ALLERGEN WARNING: CONTAINS: SOY. Produced in a facility that also processes PEANUTS",
 			"EGGS",
 			"WHEAT and MILK.,"
-		],
-		"pass": true
+		]
 	}
 ]

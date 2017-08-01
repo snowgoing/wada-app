@@ -7,6 +7,7 @@ var logger = require("morgan");
 var nodemailer = require('nodemailer');
 var mg = require('nodemailer-mailgun-transport');
 var nconf = require('nconf');
+var _ = require('lodash');
 
 // var auth =  require('./config.json');
 var app = express();
@@ -14,8 +15,9 @@ var PORT = process.env.PORT || 3000;
 
 var model = require('./playgroundResults.json')[0];
 var models = require('./playgroundResults.json');
-// var { mongoose } = require('./server/db/mongoose');
-// var { WadaClass } = require('./server/models/wada_list');
+var { Product } = require('./server/models/product');
+var { mongoose } = require('./server/db/mongoose');
+
 
 hbs.registerPartials(__dirname + '/views/partials');
 app.set('view engine', 'hbs');
@@ -43,18 +45,23 @@ hbs.registerHelper('checkIndent', (obj) => {
   }
 });
 
-hbs.registerHelper('gotoPage', (x) => {
-  console.log(x);
+hbs.registerHelper('limitContentLength', (arr) => {
+  var str = arr.filter(x => x.length > 0).toString().replace(/\,/gi, " ");
+  return str.length < 250 ? str + "..." : str.slice(0, 250) + "...";
 })
 
 var renderObj = {
-  pageTitle: 'Check My WADA',
+  pageTitle: 'Check My Supplement',
   model: models,
   searchTerm: 'stuff'
 };
 
 app.get('/', (req, res) => {
   res.render('homepage.hbs');
+});
+
+app.get('/scan', (req, res) => {
+  res.render('scanPage.hbs');
 });
 
 app.get('/product', (req, res) => {
@@ -75,7 +82,12 @@ app.post('/contact', (req, res) => {
 });
 
 app.get('/product_titles', (req, res) => {
-  res.send(models).status(200);
+  Product.find({}).then(docs => {
+    var strTitles = docs.map(y => y.name);
+    docs.forEach(doc => strTitles.push(doc.brand));
+    strTitles = Array.from(new Set(strTitles));
+    res.send({strTitles}).status(200);
+  }, (e) => res.status(400).send(e));
 });
 
 // app.get('/wada_api', (req, res) => {
@@ -101,6 +113,26 @@ app.get('/test', (req, res) => {
   } else {
     res.send({error: true});
   }
+});
+
+app.get('/product_search', (req, res) => {
+  var text = req.query.searchText;
+  var regEx = new RegExp(text, 'i');
+  renderObj.searchTerm = text;
+
+  Product.find({$or: [{brand: {$regex: regEx}}, {name: {$regex: regEx}}]}).then(docs => {
+    renderObj.model = docs;
+    res.send({docs}).status(200);
+  }, (e) => res.status(400).send({error: true}));
+});
+
+app.get('/product_search/:id', (req, res) => {
+  var key = req.params.id;
+
+  Product.find({key}).then(doc => {
+    renderObj.model = doc;
+    res.send({doc}).status(200);
+  }, (e) => res.status(400).send({error: true}));
 });
 
 app.get('/test/:id', (req, res) => {
