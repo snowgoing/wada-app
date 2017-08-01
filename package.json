@@ -23,5 +23,8 @@
     "start": "node server.js",
     "test": "",
     "test-watch": ""
+  },
+  "engines": {
+    "node": "8.0.0"
   }
 }
